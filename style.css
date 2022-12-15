@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #F0F4F5;
+    margin: auto; /* Auto */
+    overflow: hidden;
+    font-family: "Poppins";
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+nav img{
+    width: 140px;
+    margin-top: 10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+    margin-left: -7px;
+}
+nav ul li:first-child{
+    color: #41D399;
+    font-weight: 700;
+}
+
+/* Hero Section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+main section {
+    width: 50%;
+}
+
+.leftsection{
+    margin-left: 5%;
+    position: relative;
+}
+
+.topangle{
+    width: 25px;
+}
+
+.leftsection h1{
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.leftsection p {
+    color: #808080;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.bottomangle{
+    width: 23px;
+    position: absolute;
+    right: 40px;
+}
+
+.stethoscope{
+    position: absolute;
+    width: 85%;
+    /* top: 0px;
+    right: 0px; */
+    margin-top: -410px;
+    margin-left: 210px;
+    z-index: -1;
+}
+
+.mouse{
+    position: absolute;
+    right: -10px;
+    bottom :0;
+    width: 28px;
+}
+
+.leftsection button{
+    color: white;
+    background-color: #20BC7E;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+/*  Right Side */
+/* .greenbox,  .yellowbox{
+    position: absolute;
+    right: 0;
+} */
+.greenbox{
+    width: 30%;
+    bottom: 29px;
+    position: absolute;
+    margin-left: 196px;
+}
+.yellowbox{
+    width: 26%;
+    bottom: 47px;
+    position: absolute;
+    right: 0;
+}
+
+
+.doctor{
+    position: absolute;
+    /* right: 0;*/
+    margin-left: 205px;
+    bottom: 0;
+    height: 90%;
+}
