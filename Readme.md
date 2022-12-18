@@ -1,4 +1,4 @@
-# Project Name : Justice HomePage ![Tech Stack Used](https://img.shields.io/badge/Technologies-HTML%20%26%20CSS-orange)
+# Project Name : Medifine HomePage ![Tech Stack Used](https://img.shields.io/badge/Technologies-HTML%20%26%20CSS-orange)
 
 ---
 
